@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client'
 import { AlternateSalute, Greeting, Name, Salute, UserCard, AlternateUserCard } from './Greeting'
 import Product, { Navbar } from './Product'
 import Button from './Button'
+import TaskCard from './Task'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(<>
 
-    <Button text="check out"/>
+    <Button text="Check Out"/>
+    <TaskCard ready={false}/>
     {/*<Greeting />
     <Name />
     <Product />
