@@ -2,7 +2,7 @@ export function Greeting() {
 
     const married = false
 
-    //return <h1>{married ? 'Estoy casado' : 'Soy virgen 	😃'}</h1>
+    //return <h1>{married ? 'Estoy casado' : 'No estoy casado 😃'}</h1>
 
     const user = {
         firstName: 'Ryan',
