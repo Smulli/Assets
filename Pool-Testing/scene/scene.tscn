@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://di0qoooasax3b"]
+
+[ext_resource type="Script" path="res://scene/recyclable_scene.gd" id="1_wd5td"]
+[ext_resource type="Script" path="res://scene/scene.gd" id="1_xnrte"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tfh15"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_onb2e"]
+
+[node name="RecyclableObject" type="Node3D"]
+script = ExtResource("1_wd5td")
+
+[node name="scene" type="Area3D" parent="."]
+script = ExtResource("1_xnrte")
+speed_meter = 2.0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="scene"]
+shape = SubResource("CapsuleShape3D_tfh15")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="scene"]
+mesh = SubResource("CapsuleMesh_onb2e")
