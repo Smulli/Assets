@@ -1,0 +1,107 @@
+{
+    "data":[
+        {
+            "updateSection":[
+                {
+                    "id": 1,
+                    "staticImage": "/assets/img/2.jpg",
+                    "gifImage": "/assets/img/2.gif",
+                    "title": "Social Network News:",
+                    "content": "Mira Softworks Twitter has opened!",
+                    "btnText": "Check it on Twitter",
+                    "url": "https://twitter.com/MiraSoftworks",
+                    "tag": "#Branding"
+                },
+        
+                {
+                    "id": 2,
+                    "staticImage": "/assets/img/2.jpg",
+                    "gifImage": "/assets/img/2.gif",
+                    "title": "Branding Showcase:",
+                    "content": "Working on my official portfolio.",
+                    "btnText": "Check it on Linkedin",
+                    "url": "https://www.linkedin.com/posts/albert-diaz-miravete-351180216_react-bootstrap-activity-7058473662391160832-Q3im?utm_source=share&utm_medium=member_desktop",
+                    "tag": "#Website"
+                },
+        
+                {
+                    "id": 3,
+                    "staticImage": "/assets/img/1.jpg",
+                    "gifImage": "/assets/img/1.gif",
+                    "title": "Poplloon:",
+                    "content": "An accessible game for color blindness.",
+                    "btnText": "Check it on Linkedin",
+                    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7049392732536000512?utm_source=share&utm_medium=member_desktop",
+                    "tag": "#Game Developing"
+                }
+            ],
+
+            "comingSoonSection":[
+                {
+                    "id": 1,
+                    "staticImage": "/assets/img/1.jpg",
+                    "gifImage": "/assets/img/1.jpg",
+                    "title": "Poplloon",
+                    "content": "Poplloon is a casual and relaxing game designed especially to give accessibility to people with color blindness.",
+                    "btnText": "Check it on Projects",
+                    "url": "/projects",
+                    "tag": "#Game Project"
+                },
+        
+                {
+                    "id": 2,
+                    "staticImage": "/assets/img/2.jpg",
+                    "gifImage": "/assets/img/2.gif",
+                    "title": "Empty Space",
+                    "content": "Empty Space",
+                    "btnText": "Check it on Projects",
+                    "url": "/projects",
+                    "tag": "#Web issues"
+                },
+
+                {
+                    "id": 3,
+                    "staticImage": "/assets/img/2.jpg",
+                    "gifImage": "/assets/img/2.gif",
+                    "title": "Empty Space",
+                    "content": "Empty Space",
+                    "btnText": "Check it on Projects",
+                    "url": "/projects",
+                    "tag": "#Web issues"
+                }
+            ],
+
+            "projectData":[
+                {
+                    "id": 1,
+                    "image": "/assets/img/1T.jpg",
+                    "title": "Poplloon",
+                    "content": "Poplloon is a casual and relaxing game designed especially to give accessibility to people with color blindness.",
+                    "date": "Updated: April 12, 2023, v-1.0.7b",
+                    "urlText": "Game Document",
+                    "url": "https://docs.google.com/document/d/1GW49iuTtHB3NsnZmjOAD5NRWIg-1HE7DNnCCO_MDH5E/edit?usp=sharing"
+                }
+            ],
+
+            "deprecatedData":[
+                {
+                    "id": 1,
+                    "title": "Poplloon (Deprecated)",
+                    "content": "Last version released: 1.0.2a",
+                    "date": "Updated: April 12, 2023",
+                    "urlText": "Source Code",
+                    "url": "https://github.com/Smulli/Poplloon-Deprecated-"
+                },
+
+                {
+                    "id": 2,
+                    "title": "Hope: Space Shield",
+                    "content": "Last version released: 1.0.9a",
+                    "date": "Updated: April 12, 2023",
+                    "urlText": "Source Code",
+                    "url": "https://github.com/Smulli/Hope-Space-Shield-Project--Deprecated-"
+                }
+            ]
+        }
+    ]
+}

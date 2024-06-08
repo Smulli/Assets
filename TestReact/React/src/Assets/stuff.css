@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+.App {
+    background-color: var(--bs-background);
+    height: var(--bs-height);
+    background: linear-gradient(var(--bs-background-gradient));
+    color: var(--bs-color);
+    font-family: var(--bs-font-family);
+}
+
+.navBg {
+    color: var(--bs-color);
+    background-color: var(--bs-nav-background);
+}
+
+.card {
+    background-color: var(--bs-background) !important;
+    transform: translate(0, 0);
+    transition: transform 250ms ease-out;
+}
+
+.card:hover {
+    background-color: var(--bs-background) !important;
+    box-shadow: var(--bs-box-shadow) !important;
+    transform: translate(0, -10px);
+    transition: transform 250ms ease-in;
+}
+
+.imgAbout > picture > Button > img {
+    transform: translate(0, 0);
+    transition: transform 250ms ease-out;
+}
+
+.imgAbout > picture > Button > img:hover {
+    box-shadow: var(--bs-box-shadow) !important;
+    transform: translate(0, -10px);
+    transition: transform 250ms ease-in;
+}
+
+footer {
+    background-color: var(--bs-nav-background) !important;
+    height: auto 2rem;
+    padding-bottom: 2px;
+}
+
+#socialIcon {
+    transition: all 1s;
+}
+
+#socialIcon:hover {
+    transform: scale(1.2);
+}
+
+:root {
+    --bs-background-gradient: 180deg, rgba(37, 37, 37, 1) 0%,
+        rgba(13, 13, 13, 1) 100%;
+    --bs-background: #0d0d0d;
+    --bs-nav-background: #1d1d1d;
+    --bs-footer-background: #0f0f0f;
+    --bs-color: #ffffff;
+    --bs-font-family: 'Cairo', 'sans-serif';
+    --bs-height: 100%;
+    --bs-box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.2);
+} 
